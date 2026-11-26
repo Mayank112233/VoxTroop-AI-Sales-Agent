@@ -1,0 +1,713 @@
+[
+  {
+    "title": "Data Analytics Professional Program",
+    "months": 4,
+    "fee": 25000,
+    "category": 1,
+    "description": "Turn business data into dashboards and decisions.",
+    "curriculum": [
+      "Excel",
+      "SQL",
+      "Python",
+      "Pandas",
+      "data cleaning",
+      "exploratory analysis",
+      "Power BI",
+      "dashboard development",
+      "business insights"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": true,
+    "slug": "data-analytics-professional-program"
+  },
+  {
+    "title": "Data Science Career Program",
+    "months": 6,
+    "fee": 45000,
+    "category": 1,
+    "description": "Use statistics and machine learning to solve practical data problems.",
+    "curriculum": [
+      "Python",
+      "statistics and probability",
+      "NumPy and Pandas",
+      "visualization",
+      "exploratory analysis",
+      "machine learning",
+      "feature engineering",
+      "evaluation",
+      "SQL",
+      "projects"
+    ],
+    "eligibility": "Basic Python and statistics recommended",
+    "level": "Intermediate",
+    "languages": [
+      "English"
+    ],
+    "keywords": "data scientist",
+    "featured": true,
+    "slug": "data-science-career-program"
+  },
+  {
+    "title": "Generative AI & Agentic AI",
+    "months": 6,
+    "fee": 50000,
+    "category": 0,
+    "description": "Build and evaluate grounded assistants and tool-using workflows.",
+    "curriculum": [
+      "Python for AI",
+      "large language models",
+      "prompting",
+      "embeddings",
+      "vector databases",
+      "RAG",
+      "LangChain",
+      "LangGraph",
+      "workflows",
+      "tool calling",
+      "evaluation",
+      "deployment"
+    ],
+    "eligibility": "Basic Python recommended",
+    "level": "Intermediate",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": true,
+    "slug": "generative-ai-agentic-ai"
+  },
+  {
+    "title": "Machine Learning Engineering",
+    "months": 6,
+    "fee": 42000,
+    "category": 0,
+    "description": "Take predictive models from experiments to deployment.",
+    "curriculum": [
+      "Supervised learning",
+      "feature pipelines",
+      "cross-validation",
+      "model serving",
+      "monitoring"
+    ],
+    "eligibility": "Python and basic statistics",
+    "level": "Intermediate",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "machine-learning-engineering"
+  },
+  {
+    "title": "Python Programming",
+    "months": 2,
+    "fee": 8000,
+    "category": 2,
+    "description": "Write readable scripts to automate everyday tasks.",
+    "curriculum": [
+      "Variables and loops",
+      "functions",
+      "files",
+      "exceptions",
+      "testing"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "python-programming"
+  },
+  {
+    "title": "Business Intelligence & Power BI",
+    "months": 3,
+    "fee": 15000,
+    "category": 1,
+    "description": "Model business data and publish interactive reports.",
+    "curriculum": [
+      "Power Query",
+      "star schemas",
+      "DAX",
+      "dashboards",
+      "report design"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "business-intelligence-power-bi"
+  },
+  {
+    "title": "Deep Learning & Computer Vision",
+    "months": 4,
+    "fee": 30000,
+    "category": 0,
+    "description": "Train and assess neural networks for image tasks.",
+    "curriculum": [
+      "Neural networks",
+      "convolution",
+      "augmentation",
+      "transfer learning",
+      "image classification"
+    ],
+    "eligibility": "Python and machine learning basics",
+    "level": "Intermediate",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "deep-learning-computer-vision"
+  },
+  {
+    "title": "Full Stack Web Development",
+    "months": 8,
+    "fee": 40000,
+    "category": 2,
+    "description": "Build a web application from interface to data storage.",
+    "curriculum": [
+      "HTML and CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "backend fundamentals",
+      "REST APIs",
+      "databases",
+      "Git",
+      "deployment"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": true,
+    "slug": "full-stack-web-development"
+  },
+  {
+    "title": "Cloud Computing & DevOps",
+    "months": 5,
+    "fee": 35000,
+    "category": 3,
+    "description": "Ship applications through repeatable delivery pipelines.",
+    "curriculum": [
+      "Linux",
+      "cloud fundamentals",
+      "containers",
+      "CI/CD",
+      "infrastructure as code",
+      "observability"
+    ],
+    "eligibility": "Command-line basics recommended",
+    "level": "Intermediate",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "cloud-computing-devops"
+  },
+  {
+    "title": "Cybersecurity Fundamentals",
+    "months": 4,
+    "fee": 28000,
+    "category": 4,
+    "description": "Protect systems and respond to security incidents.",
+    "curriculum": [
+      "Identity and access",
+      "secure configuration",
+      "logging",
+      "incident response"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "cybersecurity-fundamentals"
+  },
+  {
+    "title": "Java & Spring Boot Development",
+    "months": 5,
+    "fee": 30000,
+    "category": 2,
+    "description": "Develop maintainable Java services.",
+    "curriculum": [
+      "Java collections",
+      "Spring Boot",
+      "REST controllers",
+      "persistence",
+      "testing"
+    ],
+    "eligibility": "Programming basics recommended",
+    "level": "Intermediate",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "java-spring-boot-development"
+  },
+  {
+    "title": "Data Structures & Algorithms",
+    "months": 3,
+    "fee": 12000,
+    "category": 2,
+    "description": "Compare data structures and solve algorithmic problems.",
+    "curriculum": [
+      "Arrays",
+      "hash maps",
+      "trees",
+      "graphs",
+      "dynamic programming",
+      "complexity"
+    ],
+    "eligibility": "Programming basics recommended",
+    "level": "Intermediate",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "data-structures-algorithms"
+  },
+  {
+    "title": "SQL & Database Engineering",
+    "months": 2,
+    "fee": 10000,
+    "category": 1,
+    "description": "Design relational schemas and query data reliably.",
+    "curriculum": [
+      "Joins",
+      "aggregations",
+      "normalization",
+      "indexes",
+      "transactions"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "sql-database-engineering"
+  },
+  {
+    "title": "UPSC Civil Services Foundation",
+    "months": 18,
+    "fee": 65000,
+    "category": 5,
+    "description": "Build a foundation across the civil services preparation journey.",
+    "curriculum": [
+      "Orientation",
+      "Indian polity",
+      "ancient and modern history",
+      "geography",
+      "economy",
+      "ecology",
+      "science",
+      "international relations",
+      "ethics",
+      "current affairs",
+      "CSAT",
+      "essay",
+      "mains answers",
+      "interview"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "IAS beginner",
+    "featured": true,
+    "slug": "upsc-civil-services-foundation"
+  },
+  {
+    "title": "UPSC General Studies Integrated",
+    "months": 12,
+    "fee": 48000,
+    "category": 5,
+    "description": "Cover core General Studies with a one-year study plan.",
+    "curriculum": [
+      "History and society",
+      "polity",
+      "economy",
+      "geography",
+      "international relations",
+      "ethics",
+      "revision"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "IAS one year",
+    "featured": true,
+    "slug": "upsc-general-studies-integrated"
+  },
+  {
+    "title": "UPSC Prelims Target Program",
+    "months": 6,
+    "fee": 22000,
+    "category": 5,
+    "description": "Prepare for objective papers through drills and mocks.",
+    "curriculum": [
+      "General Studies I",
+      "CSAT",
+      "current affairs",
+      "subject drills",
+      "previous-year questions",
+      "mocks"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "upsc-prelims-target-program"
+  },
+  {
+    "title": "UPSC Mains Answer Writing",
+    "months": 6,
+    "fee": 18000,
+    "category": 5,
+    "description": "Write structured analytical answers under time constraints.",
+    "curriculum": [
+      "General Studies I–IV",
+      "essays",
+      "answer structure",
+      "case studies",
+      "analytical thinking",
+      "time management"
+    ],
+    "eligibility": "Prior General Studies preparation recommended",
+    "level": "Intermediate",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "upsc-mains-answer-writing"
+  },
+  {
+    "title": "UPSC CSAT Preparation",
+    "months": 4,
+    "fee": 10000,
+    "category": 5,
+    "description": "Practice aptitude and reading comprehension.",
+    "curriculum": [
+      "Numeracy",
+      "data interpretation",
+      "logic",
+      "reading comprehension",
+      "timed practice"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "upsc-csat-preparation"
+  },
+  {
+    "title": "Current Affairs & Editorial Analysis",
+    "months": 12,
+    "fee": 6000,
+    "category": 5,
+    "description": "Turn current issues and editorials into exam-ready notes.",
+    "curriculum": [
+      "Editorial reading",
+      "policy analysis",
+      "issue mapping",
+      "revision",
+      "essay examples"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "current-affairs-editorial-analysis"
+  },
+  {
+    "title": "Political Science & International Relations Optional",
+    "months": 8,
+    "fee": 28000,
+    "category": 5,
+    "description": "Explore political theory and global affairs for PSIR.",
+    "curriculum": [
+      "Political theory",
+      "Indian politics",
+      "comparative politics",
+      "international relations",
+      "foreign policy"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "political-science-international-relations-optional"
+  },
+  {
+    "title": "Sociology Optional",
+    "months": 8,
+    "fee": 25000,
+    "category": 5,
+    "description": "Apply sociological concepts to Indian society.",
+    "curriculum": [
+      "Thinkers",
+      "research methods",
+      "stratification",
+      "Indian society",
+      "social change"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "sociology-optional"
+  },
+  {
+    "title": "Geography Optional",
+    "months": 8,
+    "fee": 25000,
+    "category": 5,
+    "description": "Study physical and human geography with map work.",
+    "curriculum": [
+      "Geomorphology",
+      "climatology",
+      "human geography",
+      "Indian geography",
+      "maps"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "geography-optional"
+  },
+  {
+    "title": "UPSC Interview Guidance",
+    "months": 1,
+    "fee": 8000,
+    "category": 5,
+    "description": "Prepare for the civil services personality test.",
+    "curriculum": [
+      "Communication",
+      "current affairs",
+      "mock interviews",
+      "Detailed Application Form",
+      "ethical decisions"
+    ],
+    "eligibility": "Designed for interview-stage aspirants",
+    "level": "Intermediate",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "upsc-interview-guidance"
+  },
+  {
+    "title": "BPSC Foundation Program",
+    "months": 12,
+    "fee": 30000,
+    "category": 6,
+    "description": "Build a Bihar-focused civil services preparation plan.",
+    "curriculum": [
+      "Bihar history",
+      "Bihar geography and economy",
+      "General Studies",
+      "current affairs",
+      "mains writing"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": true,
+    "slug": "bpsc-foundation-program"
+  },
+  {
+    "title": "UPPSC Foundation Program",
+    "months": 12,
+    "fee": 32000,
+    "category": 6,
+    "description": "Build a preparation routine for Uttar Pradesh civil services.",
+    "curriculum": [
+      "UP history and culture",
+      "UP economy",
+      "General Studies",
+      "state current affairs",
+      "essays"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "uppsc-foundation-program"
+  },
+  {
+    "title": "State PCS Prelims & Mains",
+    "months": 10,
+    "fee": 28000,
+    "category": 6,
+    "description": "Plan preparation for screening and written stages.",
+    "curriculum": [
+      "State GK",
+      "General Studies",
+      "aptitude",
+      "previous-year papers",
+      "mains writing"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "state-pcs-prelims-mains"
+  },
+  {
+    "title": "SSC CGL Preparation",
+    "months": 8,
+    "fee": 15000,
+    "category": 7,
+    "description": "Build speed and accuracy across SSC CGL sections.",
+    "curriculum": [
+      "Quantitative aptitude",
+      "reasoning",
+      "English",
+      "general awareness",
+      "mocks"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": true,
+    "slug": "ssc-cgl-preparation"
+  },
+  {
+    "title": "Banking PO & Clerk Preparation",
+    "months": 6,
+    "fee": 14000,
+    "category": 7,
+    "description": "Prepare for banking recruitment with timed practice.",
+    "curriculum": [
+      "Quantitative aptitude",
+      "reasoning",
+      "English",
+      "banking awareness",
+      "mocks"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "banking-po-clerk-preparation"
+  },
+  {
+    "title": "Railway Recruitment Preparation",
+    "months": 6,
+    "fee": 12000,
+    "category": 7,
+    "description": "Practice topics common to railway recruitment exams.",
+    "curriculum": [
+      "Mathematics",
+      "reasoning",
+      "general science",
+      "general awareness",
+      "practice tests"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "railway-recruitment-preparation"
+  },
+  {
+    "title": "CDS & AFCAT Preparation",
+    "months": 6,
+    "fee": 18000,
+    "category": 7,
+    "description": "Develop a study routine for written defence exams.",
+    "curriculum": [
+      "English",
+      "general knowledge",
+      "mathematics",
+      "reasoning",
+      "exam-specific mocks"
+    ],
+    "eligibility": "Open to learners preparing for this subject",
+    "level": "Beginner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "keywords": "",
+    "featured": false,
+    "slug": "cds-afcat-preparation"
+  }
+]

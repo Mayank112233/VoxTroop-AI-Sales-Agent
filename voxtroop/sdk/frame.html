@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VoxTroop Assistant</title>
+<style>
+body{margin:0;font:15px system-ui;color:#182826;height:100dvh;display:grid;grid-template-rows:auto 1fr auto}
+header,form,footer{padding:14px;background:#edf6f1}main{overflow:auto;padding:14px}
+p{padding:10px;border-radius:8px;background:#f1f5f3;overflow-wrap:anywhere;white-space:pre-line}
+form,#appointment{display:flex;gap:8px;flex-wrap:wrap}#appointment:empty{display:none}body[data-theme="blue"] button{background:#305c93}input{min-width:0;flex:1;padding:8px}button{background:#17654c;color:white;border:0;border-radius:6px;padding:8px 11px}
+
+body[data-business="edunext"]{color-scheme:dark;background:#191b1f;color:#f4f6fb;grid-template-rows:auto minmax(0,1fr) auto;font:15px/1.55 system-ui,sans-serif}
+[data-business="edunext"] header{background:#1d2026;border-bottom:1px solid #343943;display:flex;align-items:center;gap:10px;padding:14px 16px}
+[data-business="edunext"] header div{min-width:0}
+[data-business="edunext"] header #mode{display:block;color:#abb5c8;font-size:12px}
+.assistant-reply{padding:10px;border-radius:8px;background:#f1f5f3;overflow-wrap:anywhere;margin:1em 0}
+.reply-products{margin:8px 0;padding-inline-start:1.4em}
+.reply-products li+li{margin-top:6px}
+.reply-products a{color:#194d95;text-decoration:underline;text-underline-offset:3px}
+.reply-follow-up{margin-top:8px}
+[data-business="edunext"] .assistant-reply{padding:0;background:none;margin:0 0 14px}
+[data-business="edunext"] .reply-products a{color:#a7c7ff}
+.academy-mark{display:none}
+[data-business="edunext"] .academy-mark{display:grid;place-items:center;flex:none;width:34px;height:34px;border-radius:50%;background:#193c73;color:#deebff}
+.academy-mark svg{width:20px;height:20px}
+[data-business="edunext"] main{padding:14px 16px;scrollbar-color:#545d6b transparent;overscroll-behavior:contain}
+[data-business="edunext"] #academy-starters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:0 0 16px}
+[data-business="edunext"] #academy-starters button{display:grid;justify-items:start;gap:3px;text-align:left;background:#22252b;border:1px solid #3a404c;border-radius:12px;font:600 13px/1.35 system-ui;padding:10px;min-height:62px}
+[data-business="edunext"] #academy-starters button span{color:#92bafe;font-size:16px}
+[data-business="edunext"] #academy-starters button:hover{background:#2b303a;border-color:#7099d7}
+[data-business="edunext"] p{background:none;padding:0;margin:0 0 14px}
+[data-business="edunext"] .message-you{width:fit-content;max-width:86%;margin-left:auto;padding:10px 13px;background:#30343c;border-radius:15px 15px 4px 15px}
+[data-business="edunext"] .message-assistant{display:flex;gap:9px;align-items:flex-start}
+[data-business="edunext"] .message-assistant .academy-mark{width:28px;height:28px}
+[data-business="edunext"] .message-copy{min-width:0}
+[data-business="edunext"] .message-status{color:#ffcf9c;font-size:13px}
+[data-business="edunext"] footer{padding:8px 12px;background:#191b1f}
+[data-business="edunext"] form{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;gap:5px;align-items:center;background:#22252b;border:1px solid #454c59;border-radius:17px;padding:7px}
+[data-business="edunext"] input{width:100%;box-sizing:border-box;background:transparent;color:inherit;border:0;font:inherit;padding:8px 6px}
+[data-business="edunext"] input::placeholder{color:#aeb8c9}
+[data-business="edunext"] footer button{min-height:38px;border-radius:24px;font-weight:700;background:#343d4f}
+@media(max-width:380px){[data-business="edunext"] form{grid-template-columns:1fr auto auto auto}[data-business="edunext"] input{grid-column:1/-1}[data-business="edunext"] #record{grid-column:2}[data-business="edunext"] #play{grid-column:3}[data-business="edunext"] #send{grid-column:4}}
+[data-business="edunext"] #send{width:38px;padding:0;background:#285abe;font-size:20px}
+#appointment{display:grid;gap:8px;margin:10px 0 4px;padding:12px;border:1px solid #76899e;border-radius:12px}
+#appointment:empty{display:none}
+#appointment h2,#appointment p{margin:0}
+#appointment p{padding:0;background:none}
+#appointment label{display:grid;gap:3px;font-size:.85em}
+#appointment input{border:1px solid #8292a6;border-radius:6px;box-sizing:border-box;width:100%}
+[data-business="edunext"] #appointment input{background:#252a32;padding:8px}
+#appointment .booking-buttons{display:flex;gap:8px;flex-wrap:wrap}
+#appointment [data-secondary]{background:transparent;color:inherit;border:1px solid #76899e}
+#appointment [data-booking-error]{color:#9d261a}
+[data-business="edunext"] #appointment [data-booking-error]{color:#ffcf9c}
+.assistant-reply p{margin:0 0 .5em}
+.assistant-reply p:last-child{margin-bottom:0}
+[data-business="edunext"] button:disabled{opacity:.48}
+[data-business="edunext"] :is(button,input):focus-visible{outline:2px solid #a6c6ff;outline-offset:2px}
+#academy-starters[hidden]{display:none!important}
+#academy-credit{display:none}
+[data-business="edunext"] #academy-credit{display:block;text-align:center;color:#abb5c8;font-size:11px;margin-top:5px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+</style>
+<template id="academy-avatar"><span class="academy-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m2 10 10-5 10 5-10 5-10-5Zm4 2v5c3.5 2.7 8.5 2.7 12 0v-5m4-2v5"/></svg></span></template>
+<header><div><strong id="business"></strong> <span id="mode"></span></div></header>
+<main id="messages" aria-live="polite"><div id="academy-starters" aria-label="Suggested questions" hidden>
+<button type="button" data-prompt="Which technology courses can I explore?"><span aria-hidden="true">⌘</span>Explore tech courses</button>
+<button type="button" data-prompt="How should I start preparing for UPSC?"><span aria-hidden="true">◇</span>UPSC preparation</button>
+<button type="button" data-prompt="Can you help me choose a course for my career goals?"><span aria-hidden="true">↗</span>Career guidance</button>
+<button type="button" data-prompt="How can I book a counselling appointment?"><span aria-hidden="true">▦</span>Book counselling</button>
+</div><section id="appointment" aria-label="Appointment"></section></main>
+<footer><form><input required maxlength="3000" aria-label="Message" placeholder="Ask us a question"><button id="send" aria-label="Send message">Send</button><button type="button" id="record" hidden>Record</button><button type="button" id="play" disabled hidden>Play</button></form><div id="academy-credit">Powered by VoxTroop AI</div></footer>
+<script src="/widget-frame.js" defer></script></html>

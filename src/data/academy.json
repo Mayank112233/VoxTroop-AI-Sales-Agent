@@ -1,0 +1,57 @@
+{
+  "categories": [
+    "Artificial Intelligence & Machine Learning",
+    "Data Science & Analytics",
+    "Software Development",
+    "Cloud Computing & DevOps",
+    "Cybersecurity",
+    "UPSC Civil Services",
+    "State PCS",
+    "Government & Banking Exams",
+    "Professional Development"
+  ],
+  "overview": "Learn Anything Academy is a fictional Indian education platform offering online technology and exam preparation programmes. The catalogue lists demonstration fees in INR.",
+  "policies": "Recommend based on goals, previous preparation, budget and available time. For Data Scientist goals with Python and statistics, consider Data Science Career Program. For a one-year UPSC plan under INR 50,000, consider General Studies Integrated. Refer to official authorities for examination requirements, dates and vacancies. Never promise jobs, salaries, rank, selection, accreditation or discounts. Payments and enrolment are unavailable. Request counselling through VoxTroop and book only after explicit slot confirmation. Preserve the selected language and use only this tenant's knowledge.",
+  "faq": [
+    [
+      "Who can take a course?",
+      "Open-entry programmes welcome beginners. Check the preparation guidance on each course page."
+    ],
+    [
+      "How long do courses take?",
+      "Programmes range from 1 to 18 months. Use the duration filter to find a suitable course."
+    ],
+    [
+      "Are courses online?",
+      "The demonstration programmes are designed for online learning."
+    ],
+    [
+      "Do I need coding experience?",
+      "Python Programming welcomes beginners. Advanced courses list recommended preparation."
+    ],
+    [
+      "Can I start UPSC preparation as a beginner?",
+      "Yes. Compare the 18-month Foundation and 12-month General Studies Integrated programmes."
+    ],
+    [
+      "Can I speak to the counsellor in Hindi?",
+      "You can ask to continue in Hindi or English. Live response quality depends on VoxTroop's configured provider."
+    ],
+    [
+      "Can I get a course recommendation?",
+      "Share your goal, background, available time and budget with the counsellor."
+    ],
+    [
+      "How do I request a counselling appointment?",
+      "Ask the counsellor for a session, choose an available slot and confirm through the widget."
+    ],
+    [
+      "Does the Academy guarantee placement?",
+      "The programmes offer skills practice and guidance. Placement, salary and examination outcomes are never guaranteed."
+    ],
+    [
+      "How can I pay for a course?",
+      "Payments and enrolment are unavailable in this demonstration."
+    ]
+  ]
+}

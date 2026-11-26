@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+python-dotenv
+langgraph
+langchain-openai
+langchain-text-splitters
+qdrant-client
+pypdf
+python-multipart
+pytest
+httpx
+tzdata

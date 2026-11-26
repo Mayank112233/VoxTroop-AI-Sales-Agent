@@ -1,0 +1,24 @@
+{
+  "name": "voxtroop-console",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "*",
+    "recharts": "*",
+    "lucide-react": "*"
+  },
+  "devDependencies": {
+    "vite": "*",
+    "typescript": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "tailwindcss": "*",
+    "@tailwindcss/vite": "*"
+  }
+}
