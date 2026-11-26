@@ -113,6 +113,8 @@ The browser workflow above has been exercised with a live provider against isola
 
 ## Technical documentation
 
+- [One-page project report and interactive workflow](docs/PROJECT_REPORT.md)
+
 - [System architecture](docs/ARCHITECTURE.md)
 - [LangGraph agent workflow](docs/AGENT_WORKFLOW.md)
 - [API reference](docs/API_REFERENCE.md)
